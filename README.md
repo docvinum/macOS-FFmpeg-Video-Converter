@@ -25,6 +25,7 @@ After installation, you can locate the FFmpeg installation folder by running:
 
 This command will output the path to the FFmpeg executable, typically /usr/local/bin/ffmpeg or /opt/homebrew/bin/ffmpeg on Apple Silicon (M1, M2) Macs.
 
+In the script, change the FFmpeg installation folder location, just after "# Execute ffmpeg conversion"
 
 ## Installation
 

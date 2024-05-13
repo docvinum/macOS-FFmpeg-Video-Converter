@@ -18,15 +18,19 @@ Before you set up the Quick Action, ensure you have the following installed on y
   brew install ffmpeg
   ```
 
+After installation, you can locate the FFmpeg installation folder by running:
+  ```bash
+  which ffmpeg
+  ```
+
+This command will output the path to the FFmpeg executable, typically /usr/local/bin/ffmpeg or /opt/homebrew/bin/ffmpeg on Apple Silicon (M1, M2) Macs.
+
+
 ## Installation
 
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/<your-username>/macOS-FFmpeg-Video-Converter.git
-   ```
-2. **Open Automator** on your Mac.
-3. **Create a new document** and choose 'Quick Action'.
-4. **Set up the Quick Action**:
+1. **Open Automator** on your Mac.
+2. **Create a new document** and choose 'Quick Action'.
+3. **Set up the Quick Action**:
    - Workflow receives current 'movie files' in 'any application'.
    - Add a 'Run Shell Script' action.
    - Shell: `/bin/zsh`
